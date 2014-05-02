@@ -65,9 +65,7 @@ def permutation(list):
 
 s="abcd"
 list1=[1,2,3,4]
-#subset("",s)
+subset("",s)
 #permhelper(list1,0,len(list1)-1)
-#permutation(list1)
+permutation(list1)
 #combi([],list1)
-for x in itertools.combinations(list1, 3):
-    print x
